@@ -1,0 +1,13 @@
+---
+vsftpd_key_file: ssl-cert.key
+vsftpd_cert_file: ssl-cert.pem
+vsftpd_csrs_file: ssl-csrs.csr
+openssl_certs_path: /etc/ssl/certs
+openssl_keys_path: /etc/ssl/private
+openssl_csrs_path: /etc/ssl/csrs
+openssl_csr_cn: tchaikovski.link
+openssl_csr_subject: CN=tchaikovski.link,ST=MOW,L=Moscow
+openssl_csr_subject_alt: "DNS:tchaikovski.link,DNS:www.tchaikovski.link"
+organization_name: "tchaikovski"
+user_name: ftpuser
+user_password: YOUR_PASSWORD
